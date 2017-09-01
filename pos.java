@@ -6,7 +6,7 @@ public static void main(String []args)
 Scanner sc=new Scanner(System.in);
 int a=sc.nextInt();
 int d=0;
-if(a>=0&&a<=100000)
+if(a<=100000)
 {
 d++;
 }
@@ -25,4 +25,6 @@ System.out.print("zero");
 if(d==0)
 {
 System.out.print("Not in range");
+}
+}
 }
